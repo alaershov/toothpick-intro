@@ -18,6 +18,6 @@ public final class RepositoryModule extends Module {
 
         bind(UserRepository.class)
                 .to(PrefUserRepository.class)
-                .singletonInScope();
+                .singleton();
     }
 }
